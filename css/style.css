@@ -1,0 +1,686 @@
+html{
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #000000c0;
+    height: 90px;
+}
+.nav-link{
+    color: #ffffff!important;
+    font-weight: 400!important;
+    display: block;
+    margin-right: -20px;
+    margin-left:110px!important;
+    font-family: 'Raleway' !important;
+}
+.ml-auto{
+    margin-left: auto!important;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.navbar .btn{
+    margin-right: 90px;
+}
+.dropdown-menu {
+    width: 100%;
+    text-align: center!important;
+    background-color: white!important;
+    display:inline-block;
+    list-style: none;
+    margin-left: 0px;
+    padding: 0;
+    opacity: 1!important;
+    }
+    
+.dropdown-menu li {
+    display:inline-block;
+}
+.dropdown-menu li a{
+    color: #8b8b8b!important;
+}
+.dropdown-menu li a:hover{
+    background-color: unset !important;
+}
+.logo-image img{
+    width: 30px;
+    height: auto;
+}
+#videopage{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+video{
+    position: relative;
+    z-index: 0;
+    width: 1920px;
+}
+#frontpagetext{
+    position:absolute;
+    top:30%;
+    left:0;
+    z-index: 1;
+    color: white;
+    padding-left: 10%;
+    width: 48%;
+}
+.btnstyle{
+    color: #fff;
+    background-color: #151524ee;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    display: inline-block;
+    font-family: 'Raleway' !important;
+}
+h1{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bolder!important;
+}
+p{
+    font-family: 'Raleway'!important;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+#about{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#about p{
+    font-size: 15px;
+}
+.abouticon img{
+    width: auto;
+    height: 70px;
+    margin-right: 10px;
+}
+#reminderbox{
+    background-color: #151524ee;
+    color: #fff;
+    float: right;
+    position:absolute;
+    right: 5%;
+    top:65%;
+    z-index: 1;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Raleway'!important;
+}
+#reminderbox p{
+    font-size: 12px;
+}
+#spaceblock{
+    width: 60vh;
+}
+#drinkpagecontainer{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 90px;
+}
+#drinkheader{
+    background-color: #08d1db;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+#drinkimagecontainer img{
+    z-index: 1;
+    width: 23vw;
+    top: 11vh;
+    float: right;
+    position: relative;
+    right: 13vw;
+}
+#drinkimagecontainer{
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+}
+h3{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bolder!important;
+    color: white;
+    z-index: 2;
+    font-size: calc(3.7rem + 1.8vw) !important;
+}
+#flavorprofile{
+    float: left;
+}
+.drinktitle{
+    padding-top: 45px;
+}
+.quiz-info{
+    text-align: center;
+}
+.quiz-info img{
+    width: 150px!important;
+    margin-left: 25px;
+}
+.longdrinktitle{
+    padding-top: 45px;
+    font-size: calc(3rem + 1.5vw) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bolder!important;
+    color: white;
+}
+.bigtitle{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 35px;
+}
+.drinktext{
+    padding-left: 12vw;
+    margin: 0;
+}
+.learnpage{
+    max-width: 900px;
+}
+.learntext img{
+    width: auto;
+    max-height: 14vw;
+}
+#learn{
+    padding-left: 12vw;
+}
+.learntext{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    float: left;
+}
+.steptext{
+    margin-left: 60px;
+}
+.bottommargin{
+    margin-bottom: 10px !important;
+}
+#ingredientbox{
+    border: #494949 solid 1px;
+    float: right;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right: 37vw;
+    margin-left: 1vw;
+    margin-top: -4vw;
+    margin-bottom: 3vw;
+}
+#drinkpage{
+    padding-top: 230px;
+}
+#learning{
+    padding-top: 230px;
+}
+.titletext{
+    font-size: 25px;
+}
+.bold{
+    font-weight:500;
+}
+#stepbox{
+    display: flex;
+}
+.smalltext{
+    font-size: 13px;
+}
+.smalltitle{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 175px !important;
+    margin-bottom: 0!important;
+}
+.underline{
+    background-image: linear-gradient(#494949 0 0);
+    background-size: 110px 2px;
+    background-position: bottom;
+    padding-bottom:13px!important;
+    background-repeat: no-repeat;
+}
+#centertitle{
+    text-align: center;
+     padding-bottom: 25px;
+}
+.drink{
+    display: block;
+    float: left;
+    width: 25%;
+    min-width: 210px;
+    padding: 15px;
+    height: 180px;
+
+}
+.drink a {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+.drink img {
+    display: block;
+    float: left;
+    width: 75px;
+    height: auto;
+}
+.spirit{
+    display: block;
+    float: left;
+    width: 25%;
+    min-width: 210px;
+    padding: 15px;
+    height: 180px;
+
+}
+.spirit img {
+    display: block;
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.spirit a {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+.spiritpage{
+    max-width: 650px;
+}
+.grid{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.grid2{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+.tags li{
+    font-family: 'Raleway' !important;
+    font-size: 11px;
+    color: #fff;
+    background: rgb(88, 161, 149);
+    display: block;
+    padding: 3px 6px 1px;
+    margin: 3px 3px 1px;
+    list-style: none;
+    float: left;
+    border-radius: 2px;
+}
+.taglight{
+    background: #8ed8c9!important;
+}
+.tagstrong{
+    background: #7fb8c0!important;
+}
+.tagverystrong{
+    background: rgb(116, 187, 169)!important;
+}
+.tagvodka{
+    background: #f0a29c!important;
+}
+.taggin{
+    background: #baacee!important;
+}
+.tagwhiskey{
+    background: #daae7b!important;
+}
+.tagrum{
+    background: #c29577!important;
+}
+.tagtequila{
+    background: #d8ce8c!important;
+}
+.tagwine{
+    background: #e99eb1!important;
+}
+.tagmartini{
+    background: #a5b9fa!important;
+}
+.taghot{
+    background: #f1b091!important;
+}
+.tagfrozen{
+    background: #65c3ca!important;
+}
+.tagsparkling{
+    background: #e9b3f0!important;
+}
+.tagtropical{
+    background: #f09fc7!important;
+}
+#header{
+    height: 350px;
+    padding-top: 120px;
+    text-align: center;
+}
+h4{
+    color: #494949;
+    font-family: 'Raleway'!important;
+}
+.gridtitle{
+    font-size: calc(0.6rem + .6vw);
+}
+a{
+    text-decoration: none!important;
+}
+.highlight{
+    color: #3ab6b6;
+}
+@media (max-width:1580px){
+    #ingredientbox{
+        margin-left: 30vw; 
+    }
+}
+@media (max-width:1205px){
+    #drinkimagecontainer img {
+        width: 260px;
+        right: 0;
+        top: 190px;
+    }
+    #drinkimagecontainer{
+        display: flex;
+    }
+    #drinkpage {
+        padding-top: 580px;
+    }
+    #drinkheader {
+        text-align: center;
+        padding-right: 10%;
+    }
+    #ingredientbox{
+        margin-top: 1vw;
+    }
+    video{
+        right: 10%;
+    }
+    #about{
+        padding-top: 10%;
+    }
+}
+@media (max-width:990px){
+    .navbar {
+        height: 70px;
+    }
+    .drinktext{
+        padding-top:0px;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #drinkpagecontainer {
+        padding-top: 70px;
+    }
+    p{
+        font-size: 15px;
+    }
+    video{
+        right: 40%;
+    }
+    #frontpagetext{
+        padding-left: 5%;
+        width: 90%;
+    }
+    #about{
+        padding-top: 15%;
+        align-items: center;
+        display:block;
+    }
+    .abouticon{
+        display: flex;
+        justify-content: center;
+    }
+    #reminderbox{
+        right: 4%;
+    }
+}
+.info_box,
+.quiz_box,
+.result_box{
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+.info_box{
+    width: 540px;
+    background: #35a8a8;
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.info_box .info-title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.info_box .info-list{
+    padding: 15px 30px;
+}
+.info_box .info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+.info_box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgrey;
+}
+.info_box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.quiz_box{
+    width: 550px;
+    background: #35a8a8;
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.quiz_box header{
+    position: relative;
+    z-index: 2;
+    height: 70px;
+    background: #35a8a8;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(149, 241, 222);
+}
+.quiz_box header .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #9ad8d8;;
+}
+section{
+    padding: 25px 30px 20px 30px;
+    background: #35a8a8;
+}
+section .que_text{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.option_list{
+    padding: 10px 0px;
+    display: block;   
+}
+.option_list .option{
+    background: #43b9b9;
+    border-radius: 5px;
+    padding: 8px 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 17px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.option_list .option:hover{
+    background: #3597a8;
+}
+.option_list .option.correct{
+    background: #1fb77fd9;
+}
+.option_list .option.incorrect{
+    background: #f12c4acf;
+}
+.option_list .option.disabled{
+    pointer-events: none;
+}
+.option_list .option .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    line-height: 24px;
+}
+.option_list .option .icon.tick{
+    color: #23903c;
+}
+.option_list .option .icon.cross{
+    color: #a42834;
+}
+footer{
+    height: 80px;
+    padding: 0 40px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(149, 241, 222);
+}
+footer .total_questions span{
+    display: flex;
+    user-select: none;
+}
+footer .total_questions span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+footer button{
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #43b9b9;
+    line-height: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+footer button:hover{
+    background: #3597a8;
+}
+footer button.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+.result_box{
+    background: #35a8a8;
+    border-radius: 5px;
+    display: flex;
+    padding: 25px 30px;
+    width: 450px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.result_box .complete_text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.result_box .score_text span{
+    display: flex;
+    margin: 10px 0;
+}
+.result_box .score_text span p{
+    padding: 0 4px;
+    font-weight: 600;
+}
+.result_box .buttons{
+    display: flex;
+    margin: 20px 0;
+}
+.result_box .buttons button{
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+}
+.buttons button.restart{
+    background: #43b9b9;
+    border: none;
+    color: white;
+}
+.buttons button.restart:hover{
+    background: #3597a8;
+}
