@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Learn about cocktails, spirits and drinks">
+    <meta name="keywords" content="Learn, Cocktails, Drinks, Spirits, Alcohol, Recipe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="COCKTAILS AND DRINKS"> <!-- Open Graph meta tags (til Facebook) -->
+    <meta property="og:description" content="Our website offers information about cocktails, drinks and spirits! Learn more or test your knowledge here">
+    <meta property="og:image" content="https://hanto.dk/eksamensprojekt/image/martini.png">
+    <meta property="og:url" content="https://hanto.dk/eksamensprojekt/index.html">
+    <meta name="twitter:title" content="COCKTAILS AND DRINKS"> <!-- Twitter meta tags -->
+    <meta name="twitter:description" content="Our website offers information about cocktails, drinks and spirits! Learn more or test your knowledge here">
+    <meta name="twitter:url" content="https://hanto.dk/eksamensprojekt/image/martini.png">
+    <meta name="twitter:card" content="Learn about cocktails, spirits and drinks">
+    <title>Welcome! | COCKTAILS AND DRINKS</title>
+    <link rel="icon" type="image/png" href="image/icon.png"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header" id="topheader"> <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <div class="container p-2">
+            <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="Cocktail"></a> <!-- Logo -->
+            <div class="dropdown"> <!-- Dropdown menu der aktiveres for små skærme -->
+            <button class="navbar-toggler btn" type="button" data-toggle="collapse" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i> <!-- Knap der viser dropdown menuen -->
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="cocktails.html">COCKTAILS</a></li>
+              <li><a class="dropdown-item" href="drinks.html">DRINKS</a></li>
+              <li><a class="dropdown-item" href="spirits.html">SPIRITS</a></li>
+              <li><a class="dropdown-item" href="learnmore.html">LEARN MORE</a></li>
+              <li><a class="dropdown-item" href="quiz.html">QUIZ</a></li>
+            </ul>
+             </div>
+            <div class="collapse navbar-collapse"> 
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton2" href="#">COCKTAILS</a><!-- Aktiverer horisontal dropdown menu -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2"><!-- Horisontal dropdown menu -->
+                    <li><a class="dropdown-item" href="cocktails/martini.html">
+                      <div class="logo-image">
+                        <img src="image/martini_icon.png" alt="Martini icon">
+                      </div>
+                      Martini
+                    </a></li>
+                    <li><a class="dropdown-item" href="cocktails/pinacolada.html">
+                      <div class="logo-image">
+                        <img src="image/pinacolada_icon.png" alt="Pina Colada icon">
+                      </div>
+                      Pina Colada
+                    </a></li>
+                    <li><a class="dropdown-item" href="cocktails/margarita.html">
+                      <div class="logo-image">
+                        <img src="image/margarita_icon.png" alt="Margarita icon">
+                      </div>
+                      Margarita
+                    </a></li>
+                    <li><a class="dropdown-item" href="cocktails/tequilasunrise.html">
+                      <div class="logo-image">
+                        <img src="image/tequilasunrise_icon.png" alt="Tequila Sunrise icon">
+                      </div>
+                      Tequila Sunrise
+                    </a></li>
+                    <li><a class="dropdown-item" href="cocktails/maitai.html">
+                      <div class="logo-image">
+                        <img src="image/maitai_icon.png" alt="Mai Tai icon">
+                      </div>
+                      Mai Tai
+                    </a></li>
+                    <li><a class="dropdown-item" href="cocktails.html">
+                      <div class="logo-image">
+                        <img src="image/viewall_icon.png" alt="View all cocktails icon">
+                      </div>
+                      View all
+                    </a></li>
+                </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="drinks.html">DRINKS</a></li>
+                <li class="nav-item"><a class="nav-link" href="spirits.html">SPIRITS</a></li>
+                <li class="nav-item"><a class="nav-link" href="learnmore.html">LEARN MORE</a></li>
+                <li class="nav-item"><a class="nav-link" href="quiz.html">QUIZ</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <main>
+        <div id="videopage" class="container-fluid"> <!-- Video header -->
+          <video autoplay muted loop>
+            <source src="image/drink-video.mp4" type="video/mp4">
+        </video>
+        </div>
+        <div id="frontpagetext" class="container-fluid"> <!-- Video header tekst -->
+          <h1>ENHANCE YOUR <br>DRINKING EXPERIENCE.</h1>
+          <p>Whether you want to be the life or the party and impress your peers or provide yourself a solo experience with a high quality drink or cocktail, we have a diverse selection of recipes to choose from. Covering flavor experiences and aesthetically pleasing drinks for every type of person. 
+            Become knowledgeable about the world of alcoholic beverages on our site.
+          </p>
+          <a href="cocktails.html" class="btnstyle"> SEE THE COCKTAILS </a> 
+      </div>
+      <div id="remindercontainer" class="container-fluid"> <!-- Reminder box -->
+        <div id="spaceblock"></div>
+        <div id="reminderbox">
+          <h5>QUALITY OVER QUANTITY</h5>
+          <p>IF YOU ARE OVER THE LEGAL DRINKING AGE AND ARE GOING<br> 
+            TO CONSUME ALCOHOL, REMEMBER TO DRINK RESPONIBLY<br>
+            AND ALWAYS HAVE A DESIGNATED DRIVER WHEN NECESSARY.</p>
+          </div>
+      </div>
+      <div id="about" class="container-fluid"> <!-- Forside tekst -->
+        <div class="abouticon">
+          <img src="image/home1_icon.png" alt="Spirit bottle icon">
+        </div>
+        <p>Have you ever wondered what different spirits are made of? Do you know the history of tequila?
+          Whether you want to learn what spirits taste like and are used for or you want to learn more about what you are actually drinking, our spirits section has you covered!
+          </p>
+        <div class="abouticon">
+          <img src="image/home2_icon.png" alt="Cocktail icon">
+        </div>
+        <p>Whether you're looking for alcoholic drinks and cocktails, we've got you covered! Explore our drinks and cocktails section to learn how to make a variety of different fun flavors of beverages, where you will get a description of the flavor profile of the drink and learn what you can pair it with. </p>
+        <div class="abouticon">
+          <img src="image/home3_icon.png" alt="Quiz icon">
+        </div>
+        <p>Are you already knowledgeable about the world of alcoholic beverages? Try out our quiz to test that knowledge, and worry not, if you are not yet an expert, you can simply explore our site, and learn a lot more about alcoholic beverages and cocktails. And, once you are done exploring our site you might be brought a lot closer to being an expert!</p>
+      </div>
+      </main>
+      <script src="https://kit.fontawesome.com/8ff0bd0672.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
